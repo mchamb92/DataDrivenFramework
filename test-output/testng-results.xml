@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40905" started-at="2020-03-12T11:33:46 EDT" finished-at="2020-03-12T11:34:27 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40905" started-at="2020-03-12T11:33:46 EDT" finished-at="2020-03-12T11:34:27 EDT">
+      <class name="com.datadriven.framework.test.LoginTest.LoginTest">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.datadriven.framework.test.LoginTest.LoginTest@71d15f18]" name="endReport" is-config="true" duration-ms="504" started-at="2020-03-12T11:34:26 EDT" finished-at="2020-03-12T11:34:27 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.datadriven.framework.test.LoginTest.LoginTest -->
+      <class name="com.datadriven.framework.test.LoginTest.LoginTest$loginTest">
+        <test-method status="PASS" signature="testOne(java.util.Hashtable)[pri:0, instance:com.datadriven.framework.test.LoginTest.LoginTest$loginTest@140e5a13]" name="testOne" duration-ms="9746" started-at="2020-03-12T11:33:47 EDT" data-provider="getTestOneData" finished-at="2020-03-12T11:33:56 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col3=TA1.2, Col2=TA1.1, Col1=TA1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.datadriven.framework.test.LoginTest.LoginTest$loginTest@140e5a13]" name="afterTest" is-config="true" duration-ms="179" started-at="2020-03-12T11:33:56 EDT" finished-at="2020-03-12T11:33:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testOne(java.util.Hashtable)[pri:0, instance:com.datadriven.framework.test.LoginTest.LoginTest$loginTest@140e5a13]" name="testOne" duration-ms="8755" started-at="2020-03-12T11:33:57 EDT" data-provider="getTestOneData" finished-at="2020-03-12T11:34:05 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col3=TA1.2, Col2=TA1.1, Col1=TA2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.datadriven.framework.test.LoginTest.LoginTest$loginTest@140e5a13]" name="afterTest" is-config="true" duration-ms="179" started-at="2020-03-12T11:34:05 EDT" finished-at="2020-03-12T11:34:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testOne(java.util.Hashtable)[pri:0, instance:com.datadriven.framework.test.LoginTest.LoginTest$loginTest@140e5a13]" name="testOne" duration-ms="20455" started-at="2020-03-12T11:34:06 EDT" data-provider="getTestOneData" finished-at="2020-03-12T11:34:26 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col3=TA1.2, Col2=TA1.1, Col1=TA3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.datadriven.framework.test.LoginTest.LoginTest$loginTest@140e5a13]" name="afterTest" is-config="true" duration-ms="290" started-at="2020-03-12T11:34:26 EDT" finished-at="2020-03-12T11:34:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.datadriven.framework.test.LoginTest.LoginTest$loginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
